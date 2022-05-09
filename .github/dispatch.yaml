@@ -1,0 +1,9 @@
+dispatch:
+- url: "app-dev.alpine-beacon-336222.com/*"
+  service: app-dev
+- url: "app-staging.alpine-beacon-336222.com/*"
+  service: app-staging
+- url: "app.alpine-beacon-336222.com/*"
+  service: default
+- url: "*/.*"
+  service: default
